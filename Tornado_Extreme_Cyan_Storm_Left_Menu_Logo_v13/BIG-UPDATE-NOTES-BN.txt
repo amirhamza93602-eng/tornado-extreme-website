@@ -1,0 +1,17 @@
+TORNADO EXTREME — BIG UPDATE v5
+
+নতুন Tactical Lab যোগ হয়েছে।
+- MAIN / ACADEMY / YOUTH / LEGEND squad নির্বাচন
+- 4-3-3, 4-2-3-1, 4-4-2, 3-5-2 formation
+- Approved Supabase player pool থেকে pitch position-এ player assign
+- Player search
+- Lineup copy এবং Print / Save PDF
+- Club Intelligence-এ approved player count squad অনুযায়ী দেখায়
+
+গুরুত্বপূর্ণ সীমাবদ্ধতা:
+- Tactical Lab-এর lineup temporary; database-এ save হয় না।
+- এটি official match result, player stats বা league table তৈরি করে না।
+- Existing Supabase schema / Overall Stats / COBEG / Intra-Club tables পরিবর্তন করা হয়নি।
+- Live COBEG sync/API দাবি করা হচ্ছে না।
+
+Deploy: ZIP extract করে ভেতরের সব website files Netlify deploy-এ upload করুন। SQL চালানোর প্রয়োজন নেই।
