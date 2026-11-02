@@ -1,0 +1,35 @@
+TORNADO EXTREME PORTAL — DEPLOY CHECKLIST (UPDATED BUILD)
+
+IMPORTANT: This ZIP is arranged for Netlify manual deploy.
+
+1) Extract this ZIP.
+2) Open the extracted folder. You should directly see index.html, portal-admin.html,
+   portal-dashboard.html, portal-profile.html, and the assets folder.
+3) In Netlify, open the Tornado Extreme site → Deploys.
+4) Drag-and-drop the CONTENTS of this extracted folder (not the ZIP file and not
+   a parent folder containing another nested folder) into the manual deploy area.
+5) Wait until deploy status is Published.
+6) Open /portal-admin.html and press Ctrl+Shift+R.
+
+EXPECTED ADMIN DASHBOARD SECTIONS:
+- Pending Applications
+- Club Announcements
+- INTRA-CLUB WIN SUBMISSIONS
+- SQUAD & VERIFICATION MANAGEMENT
+- Super Admin Controls (super admin only)
+
+EXPECTED PLAYER DASHBOARD SECTIONS:
+- Intra-Club Tournament Stats
+- Submit a Win form
+- Player Verification
+- Club Announcements
+
+If these sections do not appear after deploying this build, the wrong folder or
+an older deploy is still being served. Confirm the latest Published deploy in
+Netlify before changing Supabase settings.
+
+DATABASE:
+- If the consolidated SQL update was already successfully run, do NOT run it
+  repeatedly just for a missing UI section. First verify the Netlify deployment.
+- Overall Stats and Google Sheet integration are intentionally untouched.
+- Intra-Club Stats, COBEG profile linking, and Overall Stats remain separate.

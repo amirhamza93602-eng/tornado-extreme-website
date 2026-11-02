@@ -1,0 +1,20 @@
+TORNADO EXTREME — ELITE EXPERIENCE UPDATE v6
+
+নতুন সংযোজন:
+1) Club HQ Quick Navigation: Ctrl+K / Cmd+K চাপলে যেকোনো পেজ থেকে দ্রুত Home, Squads, Players, Tactical Lab, League, Portal ও Admin Panel-এ যাওয়া যাবে।
+2) Scroll progress indicator এবং Back-to-top control।
+3) Scroll reveal motion এবং reduced-motion accessibility support।
+4) নতুন premium visual layer: charcoal/black base, crimson highlights, glass panels, grid texture ও refined hover states।
+5) Home page-এ Digital Headquarters shortcut panel।
+6) সব HTML page-এ shared elite CSS/JS layer যুক্ত করা হয়েছে।
+
+DEPLOY:
+- ZIP extract করুন।
+- Extract করা folder-এর CONTENTS Netlify-তে deploy করুন (ZIP ফাইল নিজে নয়)।
+- Deploy শেষে Ctrl+Shift+R দিয়ে hard refresh করুন।
+
+IMPORTANT:
+- এই update কোনো Supabase SQL চালায় না এবং কোনো database write করে না।
+- Overall Stats / Google Sheet, Intra-Club records, COBEG data বা authentication logic পরিবর্তন করা হয়নি।
+- Club HQ শুধু navigation shortcut; Admin access-এর permission বদলায় না।
+- নতুন visual layer ও navigation local code-এ যাচাই করা হয়েছে; live Netlify deployment-এ পরীক্ষা করা হয়নি।
